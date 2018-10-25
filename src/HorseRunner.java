@@ -10,7 +10,7 @@ public class HorseRunner {
         horses[1] = horse1;
         horses[3] = horse2;
         horses[5] = horse3;
-        HorseBarn barn = new HorseNarn(horses);
+        HorseBarn barn = new HorseBarn(horses);
 
         System.out.println(barn);
         System.out.println(" Dusty Train is in space: " + barn.findHorseSpace("Dusty Trail"));
